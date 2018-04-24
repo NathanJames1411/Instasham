@@ -1,0 +1,2 @@
+module ShamsHelper
+end
