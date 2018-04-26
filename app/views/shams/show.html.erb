@@ -1,0 +1,19 @@
+<div class="shams-wrapper row">
+    <div class="sham">
+      <div class="sham-head">
+        <div class="name">
+          Nathan James
+        </div>
+      </div>
+      <div class="image center-block">
+        <%= link_to (image_tag @sham.image.url(:medium)) %>
+      </div>
+      <p class="caption">
+        <%= @sham.caption %>
+      </p>
+      <div class="text-center">
+        <%= link_to "Cancel", shams_path %>
+        <%= link_to "Edit Sham", edit_sham_path(@sham) %>
+      </div>
+    </div>
+</div>
